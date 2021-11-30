@@ -1,0 +1,33 @@
+{
+  "config":
+  {
+    "display_folder": "./display",
+    "display_val": "./validation_display",
+    "epoch_folder": "./stage1_epoch",
+    "summary": "./summary",
+    "gpus": "6",
+    "train_data_path": "./mini_dataset/train",
+    "test_data_path": "./mini_dataset/test",
+    "data_workers": 16,
+    "val_workers": 16,
+    "train_shuffle": true,
+    "val_shuffle": false,
+    "train_batch": 1,
+    "val_batch": 1,
+    "resize": 2,
+    "K": 32,
+    "training":
+    {
+      "lr": 0.0001,
+      "epochs": 100,
+      "display": 200,
+      "display_iter_light_dir": 400,
+      "record_iter": 50,
+      "continue": false,
+      "epoch": 0,
+      "count_train_iter_loss": 1,
+      "record_train_iter_loss": 200,
+      "mode":"train"
+    }
+  }
+}

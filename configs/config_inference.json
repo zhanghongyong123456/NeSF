@@ -1,0 +1,11 @@
+{
+  "config":
+  {
+    "input_examples_path": "./examples",
+    "save_path": "./examples_results",
+    "stage1_model_path": "./pretrained_models/ckpt_neurennet27.pth",
+    "stage2_model_path": "./pretrained_models/ckpt_backillumnet22.pth",
+    "gpus": "6",
+    "K": 32
+  }
+}
