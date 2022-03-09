@@ -1,5 +1,6 @@
 # NeSF: Neural Shading Field for Image Harmonization
  Anonymous code  for CVPR 2022 review
+ 
 
 ## Training
 We provide a mini-dataset for training our model. Specifically, our training has two stages: training the Neural Rendering Framework and training the Background Illumination Estimation Module. 
